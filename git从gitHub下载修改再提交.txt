@@ -1,0 +1,5 @@
+首先需要clone下来，不能用git add remote origin url
+clone完之后
+git add .
+git commit -m “”
+git push origin master

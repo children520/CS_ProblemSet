@@ -1,0 +1,24 @@
+1、去到Python的官网下载pip包，下载地址是：https://pypi.python.org/pypi/pip#downloads
+
+2、下载完成之后，解压到一个文件夹，用CMD控制台进入解压目录，输入：
+
+python setup.py install
+
+ 
+3、安装好之后，我们直接在命令行输入pip，同样会显示‘pip’不是内部命令，也不是可运行的程序，在环境变量path中，添加：
+C:\Python36\Scripts;
+ 
+4、使用pip安装工具的示例：
+pip install SomePackage
+ 
+5、使用pip安装工具的示例：
+pip install --upgrade SomePackage
+ 
+6、更新pip：
+pip install -U pip/pip install --upgrade pip/python -m pip install -U pip
+ 
+7、使用pip卸载软件包：
+pip uninstall SomePackage
+ 
+8、列出已安装软件包清单：
+pip list
